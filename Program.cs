@@ -10,7 +10,9 @@ namespace JUnitTesting
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the JUnitTesting");
+            // Console.WriteLine("Welcome to the JUnitTesting");
+            BinaryConversion binary = new BinaryConversion();
+            binary.Conversion();
             Console.ReadKey();
         }
     }
